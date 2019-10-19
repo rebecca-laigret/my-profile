@@ -1,0 +1,81 @@
+/* Colors and fonts */
+
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    font-size: xx-large;
+    color: #551282;
+}
+ body {
+    background: #F8F2F4;
+    color: #6E0031;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px
+}
+
+/* custom design with class*/
+.container {
+	width : 800px;
+	margin: 40px auto;
+}
+ 
+@media (max-width: 850px){
+	.container {
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container {
+	width: 400px;
+	}
+}
+
+.card-white {
+		background: white;
+	   	padding: 40px;
+	    margin: 20px 0px;
+	    box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+	    border-radius: 4px;
+	    text-align:center;
+}
+
+.img-circle {
+	border-radius : 50%;
+}
+
+.button-red{
+	background-color: #551282 ;
+	color: white;
+	padding : 15px 20px ;
+	border-radius: 4px;
+}
+
+.button-red:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-inline i:hover{
+	color:blue;
+}
+
+#introduction p{
+	margin-bottom:40px;
+}
+
